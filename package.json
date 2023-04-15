@@ -7,7 +7,7 @@
   },
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --proxy-config proxy.conf.json",
+    "start": "ng serve --proxy-config proxy.conf.json --openssl-legacy-provider",
     "build": "ng build",
     "test": "ng test --source-map=false",
     "lint": "ng lint",
